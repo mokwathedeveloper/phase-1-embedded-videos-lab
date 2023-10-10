@@ -1,16 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
 
-    <meta charset="UTF-8">
-    <title>Exceptional Realty Group - Luxury Homes - About</title>
-  </head>
-  <body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Embedded Video Lab</title>
+</head>
 
-    <h1>Exceptional</h1>
-    <h2>Realty Group</h2>
+<body>
+  <h1>Embedded Video Example</h1>
 
-    <!-- your code here! See README.md for deliverables -->
+  <!-- Video Element -->
+  <video width="600" height="400" controls autoplay>
+    <!-- MP4 Video Source -->
+    <source src="https://curriculum-content.s3.amazonaws.com/skills-front-end-web-development/real-estate-lab-assets/real-estate.mp4" type="video/mp4">
 
-  </body>
+    <!-- OGG Video Source (Fallback) -->
+    <source src="https://curriculum-content.s3.amazonaws.com/skills-front-end-web-development/real-estate-lab-assets/real-estate.ogg" type="video/ogg">
+
+    <!-- Fallback Message -->
+    Your browser does not support HTML5 video.
+    <a href="https://browsehappy.com/" target="_blank">Please upgrade your browser</a>
+  </video>
+</body>
+
 </html>
